@@ -83,3 +83,5 @@ Os dois pontos (`..`) sobem uma pasta: saem do `frontend/` antes de entrar no
 - [ ] Ciclos 4 e 5 — `frontend/css/`: identidade visual, layout e responsividade
 - [ ] Ciclos 6 e 7 — `frontend/js/`: interação, validação e dados via JSON
 - [ ] Ciclos 8 a 10 — `backend/`: formulário que grava e lista do banco
+
+| Thome Carlos Pereira | 20250294147 | @Topera777 | integrante |
