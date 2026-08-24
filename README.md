@@ -16,7 +16,7 @@ Site de agendamento para barbearia: Cadastro e login de clientes e administrador
 | Thome Carlos Pereira | 20250294147 | @Topera777 | integrante |
 | Ingrid Picorelle | 202503385475 | @IngridAPicorelle | integrante |
 | Gabriel Kock | 202503776997 | @gKock73 | **líder** |
-| Felipe Antunes Costa | 2026xxxxx | @felipeac | integrante |
+| Caio Henrique Ferreira Jaqueira | 202502946163 | @CaioHenriqueFerreiraJaqueira | integrante |
 | Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
 | Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
 
