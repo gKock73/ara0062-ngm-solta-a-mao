@@ -14,7 +14,7 @@ Site de agendamento para barbearia: Cadastro e login de clientes e administrador
 | Nome completo | Matrícula | GitHub | Papel |
 |---|---|---|---|
 | Thome Carlos Pereira | 20250294147 | @Topera777 | integrante |
-| Carlos Eduardo Ramos | 2026xxxxx | @cadu-ramos | integrante |
+| Ingrid Picorelle | 202503385475 | @IngridAPicorelle | integrante |
 | Gabriel Kock | 202503776997 | @gKock73 | **líder** |
 | Felipe Antunes Costa | 2026xxxxx | @felipeac | integrante |
 | Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
