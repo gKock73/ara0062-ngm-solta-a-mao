@@ -1,26 +1,21 @@
-# Equipe Delta — Escola Delta de Idiomas
+# Ngm Solta a Mão — Site de Agendamentos para Barbearia
 
 Projeto da disciplina **ARA0062 · Desenvolvimento Web em HTML5, CSS, JavaScript
 e PHP** — Centro Universitário Newton Paiva, 2026/2.
 
-> Troque o título acima pelo nome da sua equipe e pelo tema do projeto de vocês.
-> Todo o resto deste arquivo é modelo: substitua os dados de exemplo.
-
 ## Tema do projeto
 
-Site de uma escola de idiomas de bairro: apresentação, cursos oferecidos com
-valores e um formulário de contato. Um parágrafo basta — diga o que o site é e
-para quem ele serve.
+Site de agendamento para barbearia: Cadastro e login de clientes e administradores, tela de escolha de serviços (corte, barba, etc.) e profissionais, calendário interativo em JavaScript para seleção de horários disponíveis, painel administrativo em PHP para gerenciar e confirmar agendamentos.
 
 ## Equipe
 
-**Líder:** Daniela Prado Vieira
+**Líder:** Gabriel Kock Feregueti Silva
 
 | Nome completo | Matrícula | GitHub | Papel |
 |---|---|---|---|
-| Ana Beatriz Nogueira | 2026xxxxx | @anabnogueira | integrante |
+| Thome Carlos Pereira | 20250294147 | @Topera777 | integrante |
 | Carlos Eduardo Ramos | 2026xxxxx | @cadu-ramos | integrante |
-| Daniela Prado Vieira | 2026xxxxx | @dani-prado | **líder** |
+| Gabriel Kock | 202503776997 | @gKock73 | **líder** |
 | Felipe Antunes Costa | 2026xxxxx | @felipeac | integrante |
 | Marina Souza Lima | 2026xxxxx | @marinaslima | integrante |
 | Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
@@ -83,5 +78,3 @@ Os dois pontos (`..`) sobem uma pasta: saem do `frontend/` antes de entrar no
 - [ ] Ciclos 4 e 5 — `frontend/css/`: identidade visual, layout e responsividade
 - [ ] Ciclos 6 e 7 — `frontend/js/`: interação, validação e dados via JSON
 - [ ] Ciclos 8 a 10 — `backend/`: formulário que grava e lista do banco
-
-| Thome Carlos Pereira | 20250294147 | @Topera777 | integrante |
