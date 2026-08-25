@@ -18,7 +18,6 @@ Site de agendamento para barbearia: Cadastro e login de clientes e administrador
 | Gabriel Kock | 202503776997 | @gKock73 | **líder** |
 | Caio Henrique Ferreira Jaqueira | 202502946163 | @CaioHenriqueFerreiraJaqueira | integrante |
 | Lucca Caixeta Lopes Silva | 202508733854 | @LuccaCaixeta | integrante |
-| Rafael Teixeira Alves | 2026xxxxx | @rafaelalves | integrante |
 
 Cada integrante acrescenta a **sua própria linha** nesta tabela, pelo GitHub.
 Esse é o commit que registra a sua participação.
