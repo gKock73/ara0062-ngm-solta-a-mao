@@ -1,7 +1,7 @@
 # <Barber Dev>
 
 **Assunto:** Site de uma Babearia
-**Equipe:** Gabriel Kock · Ingrid Picorelle> · Thome Carlos Pereira · Caio Henrrique Ferreira Jaqueira · Lucca Caixeta Lopes Silva
+**Equipe:** Gabriel Kock · Ingrid Picorelle · Thome Carlos Pereira · Caio Henrrique Ferreira Jaqueira · Lucca Caixeta Lopes Silva
 **Disciplina:** ARA0062 — Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
 **Centro Universitário Newton Paiva · 2026/2**
 
@@ -9,10 +9,10 @@
 
 ## Sobre o projeto
 
-<Um sistema web para uma barbearia, criado para que os clientes possam explorar os serviços oferecidos (como corte e barba),
- escolher seu profissional de preferência e agendar um horário de atendimento de forma autônoma.>
+Um sistema web para uma barbearia, criado para que os clientes possam explorar os serviços oferecidos (como corte e barba),
+ escolher seu profissional de preferência e agendar um horário de atendimento de forma autônoma.
 
-<O projeto contará com páginas de cadastro e de autenticação para dois tipos de usuários: clientes e administradores. A interface principal entregará um formulário de seleção de serviços integrado a um calendário interativo em JavaScript para a escolha de horários. Para a gestão da barbearia, haverá um painel administrativo processado em PHP. Todos os dados de usuários, serviços ofertados e horários agendados serão persistidos no banco de dados relacional.>
+O projeto contará com páginas de cadastro e de autenticação para dois tipos de usuários: clientes e administradores. A interface principal entregará um formulário de seleção de serviços integrado a um calendário interativo em JavaScript para a escolha de horários. Para a gestão da barbearia, haverá um painel administrativo processado em PHP. Todos os dados de usuários, serviços ofertados e horários agendados serão persistidos no banco de dados relacional.
 
 ---
 
