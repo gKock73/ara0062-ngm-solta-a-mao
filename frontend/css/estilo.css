@@ -150,3 +150,38 @@ nav a:focus {
   color: var(--principal);
   outline: none;
 }
+/* ==========================================================================
+   4. TABELAS E EXIBIÇÃO DE DADOS - Caio Henrique Ferreira Jaqueira
+   ========================================================================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-bottom: var(--e-3);
+  background-color: var(--superficie);
+}
+
+caption {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: var(--e-1);
+  color: var(--texto);
+  text-align: left;
+}
+
+th, 
+td {
+  padding: var(--e-1) var(--e-2); 
+  text-align: left;
+  border-bottom: 1px solid var(--linha);
+}
+
+th {
+  background-color: var(--principal);
+  color: var(--sobre-principal);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: var(--fundo);
+}

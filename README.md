@@ -100,5 +100,5 @@ bate com o histórico de commits.*
 | Gabriel Kock | |
 | Thome Carlos| |
 | Ingrid Picorelle| |
-| <Nome 4> | |
+| Caio Henrique | |
 | <Nome 5> | |
