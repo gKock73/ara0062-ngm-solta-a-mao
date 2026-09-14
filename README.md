@@ -99,6 +99,6 @@ bate com o histórico de commits.*
 |---|---|
 | Gabriel Kock | |
 | Thome Carlos| |
-| <Nome 3> | |
+| Ingrid Picorelle| |
 | <Nome 4> | |
 | <Nome 5> | |

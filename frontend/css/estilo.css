@@ -95,3 +95,54 @@ ol {
     margin-bottom: var(--e-2);
     padding-left: var(--e-3);
 }
+/* ==========================================================================
+   3. CABEÇALHO E NAVEGAÇÃO - Ingrid Picorelle
+   ========================================================================== */
+
+
+header {
+  background-color: var(--principal);
+  color: var(--sobre-principal);
+  padding: var(--e-3);
+  text-align: center;
+}
+
+
+header h1 {
+  margin: 0 0 var(--e-2) 0;
+  font-size: var(--e-4);
+  color: var(--sobre-principal);
+}
+
+
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: var(--e-3);
+  flex-wrap: wrap;
+}
+
+nav li {
+  display: inline;
+}
+
+
+nav a {
+  color: var(--sobre-principal);
+  text-decoration: none; 
+  font-weight: bold;
+  padding: var(--e-1) var(--e-2);
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+nav a:hover,
+nav a:focus {
+  background-color: var(--sobre-principal);
+  color: var(--principal);
+  outline: none;
+}
