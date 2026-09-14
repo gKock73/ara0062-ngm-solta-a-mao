@@ -25,3 +25,73 @@
   --e-4: 2.5rem;
 }
 \*, \*::before, \*::after { box-sizing: border-box; }
+
+/* Configurações gerais */
+body {
+    margin: 0;
+    font-family: var(--fonte);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--texto);
+    background-color: var(--fundo);
+}
+
+/* Estrutura principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--e-3);
+}
+
+section {
+    margin-bottom: var(--e-4);
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: var(--principal);
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+    color: var(--principal);
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: var(--texto);
+}
+
+/* Parágrafos */
+p {
+    font-size: 1rem;
+    margin-bottom: var(--e-2);
+}
+
+/* Links */
+a {
+    color: var(--principal);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Listas */
+ul,
+ol {
+    margin-bottom: var(--e-2);
+    padding-left: var(--e-3);
+}

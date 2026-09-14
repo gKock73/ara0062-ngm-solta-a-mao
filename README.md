@@ -98,7 +98,7 @@ bate com o histórico de commits.*
 | Integrante | Parte da folha de estilo |
 |---|---|
 | Gabriel Kock | |
-| <Nome 2> | |
+| Thome Carlos| |
 | <Nome 3> | |
 | <Nome 4> | |
 | <Nome 5> | |
