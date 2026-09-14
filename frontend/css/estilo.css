@@ -26,6 +26,10 @@
 }
 \*, \*::before, \*::after { box-sizing: border-box; }
 
+/* ==========================================================================
+   2. TIPOGRAFIA E ESTRUTURA GERAL Thome Carlos
+   ========================================================================== */
+
 /* Configurações gerais */
 body {
     margin: 0;
