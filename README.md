@@ -97,7 +97,7 @@ bate com o histórico de commits.*
 
 | Integrante | Parte da folha de estilo |
 |---|---|
-| <Gabriel Kock> | |
+| Gabriel Kock | |
 | <Nome 2> | |
 | <Nome 3> | |
 | <Nome 4> | |
