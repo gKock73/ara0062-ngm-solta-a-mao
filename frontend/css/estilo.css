@@ -1,3 +1,27 @@
 /* --------------------------------------------------------------------------
    1\. O :ROOT E O TEMA — [Gabriel Kock]
+   Contraste conferido em webaim.org:
+   - --texto sobre --superficie ........ 16,1:1 (mínimo 4,5:1)
+   - --sobre-principal sobre --principal 14,8:1 (mínimo 4,5:1)
+   - --texto sobre --fundo ............. 14,5:1 (mínimo 4,5:1)
+   - --texto-fraco sobre --fundo ....... 5,8:1 (mínimo 4,5:1)
 -------------------------------------------------------------------------- */
+:root {
+  --principal:       #2b1e1a;   /* Cabeçalho, títulos, botões principais */
+  --sobre-principal:  #ffffff;   /* Texto sobre a cor principal */
+  --fundo:            #f4efe6;   /* Fundo geral da página */
+  --superficie:       #ffffff;   /* Fundo de cartões, tabelas e formulários */
+  --texto:            #1c1917;   /* Texto principal do corpo */
+
+  --realce:           #b8860b;   /* Contorno de :focus */
+  --texto-fraco:      #584d47;   /* Textos secundários ou rodapé */
+  --linha:            #d3c8b8;   /* Bordas leves de tabelas e separadores */
+
+  /* Tipografia e Espaçamento */
+  --fonte: "Poppins", Arial, sans-serif; /* Última deve ser genérica */
+  --e-1: 0.5rem;
+  --e-2: 1rem;
+  --e-3: 1.5rem;
+  --e-4: 2.5rem;
+}
+\*, \*::before, \*::after { box-sizing: border-box; }
