@@ -53,6 +53,56 @@
           no backend. Enquanto não há PHP, o action fica em "#".
         -->
       </section>
+
+      <section id="contato">
+  <h2>Contato</h2>
+  <p>Preencha o formulário abaixo para entrar em contato com a equipe.</p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Formulário de Atendimento</legend>
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label for="nome">Nome Completo:</label>
+              <input type="text" id="nome" name="nome" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">E-mail de Contato:</label>
+              <input type="email" id="email" name="email" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="assunto">Assunto:</label>
+              <select id="assunto" name="assunto">
+                <option value="duvidas">Dúvidas gerais</option>
+                <option value="matricula">Matrícula</option>
+                <option value="outros">Outros assuntos</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="acoes-formulario">
+        <button type="submit" class="btn-principal">Enviar Mensagem</button>
+        <button type="reset" class="btn-secundario">Limpar Formatos</button>
+      </div>
+    </fieldset>
+  </form>
+</section>
+
     </main>
 
     <footer>
