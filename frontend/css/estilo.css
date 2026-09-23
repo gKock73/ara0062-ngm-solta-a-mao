@@ -1,10 +1,5 @@
 /* --------------------------------------------------------------------------
    1\. O :ROOT E O TEMA — [Gabriel Kock]
-   Contraste conferido em webaim.org:
-   - --texto sobre --superficie ........ 16,1:1 (mínimo 4,5:1)
-   - --sobre-principal sobre --principal 14,8:1 (mínimo 4,5:1)
-   - --texto sobre --fundo ............. 14,5:1 (mínimo 4,5:1)
-   - --texto-fraco sobre --fundo ....... 5,8:1 (mínimo 4,5:1)
 -------------------------------------------------------------------------- */
 :root {
   --principal:       #2b1e1a;    /* Marrom couro escuro para cabeçalhos e botões */
