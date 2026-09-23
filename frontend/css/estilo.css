@@ -7,14 +7,14 @@
    - --texto-fraco sobre --fundo ....... 5,8:1 (mínimo 4,5:1)
 -------------------------------------------------------------------------- */
 :root {
-  --principal:       #2b1e1a;   /* Cabeçalho, títulos, botões principais */
-  --sobre-principal:  #ffffff;   /* Texto sobre a cor principal */
-  --fundo:            #f4efe6;   /* Fundo geral da página */
-  --superficie:       #ffffff;   /* Fundo de cartões, tabelas e formulários */
-  --texto:            #1c1917;   /* Texto principal do corpo */
+  --principal:       #2b1e1a;    /* Marrom couro escuro para cabeçalhos e botões */
+  --sobre-principal:  #ffffff;   /* Texto branco sobre o marrom principal */
+  --fundo:            #f4efe6;   /* Fundo creme / pergaminho suave */
+  --superficie:       #ffffff;   /* Fundo branco para cartões, tabelas e formulários */
+  --texto:            #1c1917;   /* Grafite bem escuro para o corpo do texto */
 
-  --realce:           #b8860b;   /* Contorno de :focus */
-  --texto-fraco:      #584d47;   /* Textos secundários ou rodapé */
+  --realce:           #b8860b;   /* Dourado/bronze para de talhes e contornos de :focus */
+  --texto-fraco:      #584d47;   /* Marrom médio para textos secundários e rodapé */
   --linha:            #d3c8b8;   /* Bordas leves de tabelas e separadores */
 
   /* Tipografia e Espaçamento */
