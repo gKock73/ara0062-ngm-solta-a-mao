@@ -3,7 +3,7 @@
 ---
 ## Assunto
 
-Site de uma babearia, onde os clientes fazem e consultam seus agendamentos.
+Barbearia tradicional com agendamento online de serviços de corte, barba e catálogo de produtos de cuidados masculinos.
 
 ---
 
@@ -28,30 +28,24 @@ O projeto contará com páginas de cadastro e de autenticação para dois tipos 
 
 ## Identidade visual
 
-*Estas são as decisões que o `frontend/css/estilo.css` aplica. Elas estão aqui
-para quem lê o repositório entender **por que** o site tem essa cara — e para
-a equipe não mudar de ideia a cada aula.*
-
 ### Paleta
 
 | Papel | Cor | Por que esta |
 |---|---|---|
-| `--principal` | `#______` | <onde aparece, e o que ela comunica sobre o assunto> |
-| `--sobre-principal` | `#______` | <o texto que fica em cima da principal> |
-| `--apoio` | `#______` | <botões, destaques> |
-| `--fundo` | `#______` | <o fundo da página> |
-| `--superficie` | `#______` | <cartões e conteúdo> |
-| `--texto` | `#______` | <a cor das letras> |
+| `--principal` | `#2b1e1a` | Marrom couro escuro rementendo as barberias tradicionais |
+| `--sobre-principal` | `#ffffff` | Texto branco com alto contraste sobre o marrom principal |
+| `--apoio` | `#8c2d19` | Vermelho terracota para botões secundários/detalhes |
+| `--fundo` | `#f4efe6` | Fundo creme rementendo as barbearias tradicionais |
+| `--superficie` | `#ffffff` | Fundo branco para cartões, tabelas e formulários |
+| `--texto` | `#1c1917` | Grafite bem escuro para o corpo do texto |
 
 **Contraste conferido** em <https://webaim.org/resources/contrastchecker/>:
 
 ```
---texto sobre --superficie ......... __,_:1
---principal sobre --superficie ..... __,_:1
---sobre-principal sobre --principal  __,_:1
+--texto sobre --superficie ......... 17,48:1
+--principal sobre --superficie ..... 16,11:1
+--sobre-principal sobre --principal  16,11:1
 ```
-
-*Todos precisam ficar em 4,5:1 ou acima.*
 
 ### Tipografia
 
@@ -63,9 +57,10 @@ a equipe não mudar de ideia a cada aula.*
 
 ### Segundo tema
 
-**Arquivo:** `frontend/css/tema-<nome>.css`
-**O que é:** <em que situação este tema seria usado — modo escuro, uma data
-comemorativa, uma campanha>
+**Arquivo:** 
+`frontend/css/tema-escuro.css`
+**O que é:** 
+O tema escuro foi criado para ofercer uma experiencia de navegação noturna mais confortável para os clientes.
 
 Para ligá-lo, tire o comentário da linha do `<link>` no `frontend/index.html`.
 Ela vem **depois** do `estilo.css`.
@@ -88,7 +83,7 @@ Ela vem **depois** do `estilo.css`.
 │   ├─ index.html
 │   ├─ css/
 │   │   ├─ estilo.css        a folha do projeto
-│   │   └─ tema-<nome>.css   o segundo tema: só variáveis
+│   │   └─ tema-escuro.css   o segundo tema: só variáveis
 │   ├─ js/
 │   │   └─ script.js         vazio até o ciclo 6
 │   └─ img/
@@ -107,7 +102,7 @@ bate com o histórico de commits.*
 
 | Integrante | Parte da folha de estilo |
 |---|---|
-| Gabriel Kock | |
+| Gabriel Kock |:root e tema e o tema-escuro |
 | Thome Carlos| |
 | Ingrid Picorelle| |
 | Caio Henrique | |
