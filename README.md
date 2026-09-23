@@ -1,10 +1,21 @@
-# <Barber Dev>
+# Barber Dev
 
+---
 ## Assunto
-Site de uma Babearia
 
-**Equipe:** Gabriel Kock · Ingrid Picorelle · Thome Carlos Pereira · Caio Henrrique Ferreira Jaqueira · Lucca Caixeta Lopes Silva
-**Disciplina:** ARA0062 — Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
+Site de uma babearia, onde os clientes fazem e consultam seus agendamentos.
+
+---
+
+**Equipe:**
+
+Gabriel Kock · Ingrid Picorelle · Thome Carlos Pereira · Caio Henrrique Ferreira Jaqueira · Lucca Caixeta Lopes Silva
+
+---
+**Disciplina:** 
+ARA0062 — Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
+
+---
 **Centro Universitário Newton Paiva · 2026/2**
 
 ---
