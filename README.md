@@ -97,9 +97,6 @@ Ela vem **depois** do `estilo.css`.
 
 ## Quem fez o quê
 
-*Uma linha por integrante. É o mapa de quem procurar quando algo quebra — e
-bate com o histórico de commits.*
-
 | Integrante | Parte da folha de estilo |
 |---|---|
 | Gabriel Kock |:root e tema e o tema-escuro |
