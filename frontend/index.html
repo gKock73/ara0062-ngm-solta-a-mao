@@ -1,119 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto da disciplina ARA0062 — Equipe Delta.">
-    <title>Escola Delta de Idiomas — Equipe Delta</title>
-
-    <!--
-      O CSS ainda está vazio: ele começa a ser escrito na aula 04.
-      A ligação já fica pronta aqui para ninguém ter de lembrar depois.
-    -->
+    <title>Barbearia Elegance</title>
+    
+    <!-- Importação da fonte Poppins -->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/tema-escuro.css"> -->
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <body>
+</head>
+<body>
 
+    <!-- Cabeçalho e Navegação -->
     <header>
-      <h1>Escola Delta de Idiomas</h1>
-      <p>Projeto da equipe Delta — ARA0062</p>
+        <h1>Barbearia Elegance</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Nossos Serviços</a></li>
+                <li><a href="#agendamento">Agendar Horário</a></li>
+                <li><a href="#autenticacao">Login / Cadastro</a></li>
+                <li><a href="#admin">Painel Administrativo</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-
+    <!-- Conteúdo Principal -->
     <main>
-      <section id="sobre">
-        <h2>Sobre o projeto</h2>
-        <p>
-          Troque este conteúdo pelo do projeto de vocês. O que não muda é a
-          estrutura: este arquivo é a raiz do <code>frontend/</code>, com
-          <code>css/</code>, <code>js/</code> e <code>img/</code> ao lado dele.
-          Todo PHP mora no <code>backend/</code>, um nível acima.
-        </p>
-      </section>
 
-      <section id="contato">
-        <h2>Contato</h2>
-        <p>O formulário de contato entra aqui.</p>
+        <!-- 1. Exploração de Serviços -->
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <p>Conheça nossas especialidades e escolha o melhor tratamento para o seu estilo.</p>
+            <ul>
+                <li><strong>Corte Clássico:</strong> Estilo tradicional e elegante na tesoura ou máquina.</li>
+                <li><strong>Degradê / Fade:</strong> Corte moderno com transição perfeita.</li>
+                <li><strong>Barba Completa:</strong> Toalha quente, navalha e hidratação dos fios.</li>
+                <li><strong>Combo Chefe:</strong> Corte + Barba + Sobrancelha com preço especial.</li>
+            </ul>
+        </section>
 
-        <!--
-          No ciclo 8, o action deste formulário aponta para o backend:
-          <form action="../backend/processa-contato.php" method="post">
-          Os dois pontos sobem uma pasta (saem do frontend) antes de entrar
-          no backend. Enquanto não há PHP, o action fica em "#".
-        -->
-      </section>
+        <!-- 2. Agendamento Interativo -->
+        <section id="agendamento">
+            <h2>Agendar um Horário</h2>
+            <p>Selecione seu serviço, o barbeiro de sua preferência e a melhor data para você.</p>
+            <form action="processa_agendamento.php" method="POST">
+                <label for="servico">Serviço Desejado:</label>
+                <select id="servico" name="servico" required>
+                    <option value="" disabled selected>Selecione um serviço...</option>
+                    <option value="corte">Corte Clássico</option>
+                    <option value="fade">Degradê / Fade</option>
+                    <option value="barba">Barba Completa</option>
+                    <option value="combo">Combo Chefe</option>
+                </select>
 
-      <section id="contato">
-  <h2>Contato</h2>
-  <p>Preencha o formulário abaixo para entrar em contato com a equipe.</p>
+                <label for="profissional">Profissional:</label>
+                <select id="profissional" name="profissional" required>
+                    <option value="" disabled selected>Escolha o seu barbeiro...</option>
+                    <option value="marcos">Marcos (Especialista em Fade)</option>
+                    <option value="tiago">Tiago (Mestre Navalha)</option>
+                </select>
 
-  <form action="#" method="post">
-    <fieldset>
-      <legend>Formulário de Atendimento</legend>
+                <label for="data_hora">Data e Horário:</label>
+                <!-- O input datetime-local serve como calendário interativo nativo suportado por navegadores -->
+                <input type="datetime-local" id="data_hora" name="data_hora" required>
 
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <label for="nome">Nome Completo:</label>
-              <input type="text" id="nome" name="nome" required>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="email">E-mail de Contato:</label>
-              <input type="email" id="email" name="email" required>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="assunto">Assunto:</label>
-              <select id="assunto" name="assunto">
-                <option value="duvidas">Dúvidas gerais</option>
-                <option value="matricula">Matrícula</option>
-                <option value="outros">Outros assuntos</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="mensagem">Mensagem:</label>
-              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+                <button type="submit">Confirmar Agendamento</button>
+            </form>
+        </section>
 
-      <div class="acoes-formulario">
-        <button type="submit" class="btn-principal">Enviar Mensagem</button>
-        <button type="reset" class="btn-secundario">Limpar Formatos</button>
-      </div>
-    </fieldset>
-  </form>
-</section>
+        <!-- 3. Cadastro e Autenticação -->
+        <section id="autenticacao">
+            <h2>Login e Cadastro</h2>
+            <p>Acesse sua conta para gerenciar seus horários ou cadastre-se agora.</p>
+            <form action="processa_login.php" method="POST">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="******" required>
+
+                <button type="submit">Entrar</button>
+                <button type="button" class="btn-secundario">Criar Nova Conta</button>
+            </form>
+        </section>
+
+        <!-- 4. Painel Administrativo -->
+        <section id="admin">
+            <h2>Painel de Gestão (Admin)</h2>
+            <p>Visão geral dos agendamentos do dia (Integrado ao PHP e Banco de Dados).</p>
+            
+            <table>
+                <caption>Agendamentos de Hoje</caption>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Cliente</th>
+                        <th>Serviço</th>
+                        <th>Profissional</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00</td>
+                        <td>João Pedro Silva</td>
+                        <td>Corte Clássico</td>
+                        <td>Tiago</td>
+                        <td>Confirmado</td>
+                    </tr>
+                    <tr>
+                        <td>09:45</td>
+                        <td>Carlos Mendes</td>
+                        <td>Combo Chefe</td>
+                        <td>Marcos</td>
+                        <td>Pendente</td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td>Fernando Costa</td>
+                        <td>Barba Completa</td>
+                        <td>Tiago</td>
+                        <td>Confirmado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
     </main>
 
-    <footer>
-      <p>Equipe Delta &middot; 2026 &middot; ARA0062 &middot; Newton Paiva</p>
-    </footer>
-
-    <!--
-      O JavaScript também está vazio por enquanto — ele entra no ciclo 6.
-      defer faz o script rodar depois que a página terminou de carregar.
-    -->
-    <script src="js/script.js" defer></script>
-
-  </body>
+</body>
 </html>
