@@ -103,6 +103,6 @@ Ela vem **depois** do `estilo.css`.
 |---|---|
 | Gabriel Kock |:root e tema e o tema-escuro |
 | Thome Carlos|TIPOGRAFIA E ESTRUTURA GERAL |
-| Ingrid Picorelle| |
+| Ingrid Picorelle| Cabeçalho e navegação |
 | Caio Henrique | Tabela e exebição de dados |
 | Lucca Caixeta Lopes Silva | Formulários, botões e rodapé |
