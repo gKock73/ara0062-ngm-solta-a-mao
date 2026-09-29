@@ -49,11 +49,11 @@ O projeto contará com páginas de cadastro e de autenticação para dois tipos 
 
 ### Tipografia
 
-**Fonte:** <"Nome da fonte">, com plano B `<fonte de sistema>, sans-serif`
-**Pesos:** 400 e <600 ou 700>
-**Por que esta:** <uma frase ligando a fonte ao assunto>
+**Fonte:** "Poppins", com plano B `Arial, sans-serif`
+**Pesos:** 300, 400, 600 e 700
+**Por que esta:** Desing geométrico e moderno, garantindo exelente legibilidade.
 
-**Escala:** `h1` 2.5rem · `h2` 1.75rem · `h3` 1.25rem · corpo 1rem
+**Escala:** `h1` 2.5rem · `h2` 2rem · `h3` 1.5rem · corpo 1rem
 
 ### Segundo tema
 
