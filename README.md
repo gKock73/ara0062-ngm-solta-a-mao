@@ -102,7 +102,7 @@ Ela vem **depois** do `estilo.css`.
 | Integrante | Parte da folha de estilo |
 |---|---|
 | Gabriel Kock |:root e tema e o tema-escuro |
-| Thome Carlos| |
+| Thome Carlos|TIPOGRAFIA E ESTRUTURA GERAL |
 | Ingrid Picorelle| |
 | Caio Henrique | Tabela e exebição de dados |
 | <Nome 5> | |
