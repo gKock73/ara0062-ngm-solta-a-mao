@@ -105,4 +105,4 @@ Ela vem **depois** do `estilo.css`.
 | Thome Carlos|TIPOGRAFIA E ESTRUTURA GERAL |
 | Ingrid Picorelle| |
 | Caio Henrique | Tabela e exebição de dados |
-| <Nome 5> | |
+| Lucca Caixeta Lopes Silva | Formulários, botões e rodapé |
