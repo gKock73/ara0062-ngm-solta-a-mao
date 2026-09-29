@@ -50,7 +50,9 @@ O projeto contará com páginas de cadastro e de autenticação para dois tipos 
 ### Tipografia
 
 **Fonte:** "Poppins", com plano B `Arial, sans-serif`
+
 **Pesos:** 300, 400, 600 e 700
+
 **Por que esta:** Desing geométrico e moderno, garantindo exelente legibilidade.
 
 **Escala:** `h1` 2.5rem · `h2` 2rem · `h3` 1.5rem · corpo 1rem
