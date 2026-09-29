@@ -104,5 +104,5 @@ Ela vem **depois** do `estilo.css`.
 | Gabriel Kock |:root e tema e o tema-escuro |
 | Thome Carlos| |
 | Ingrid Picorelle| |
-| Caio Henrique | |
+| Caio Henrique | Tabela e exebição de dados |
 | <Nome 5> | |
